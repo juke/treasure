@@ -205,7 +205,7 @@ export default function Home() {
                   <Image 
                     src="/cards/2/hero.png" 
                     alt="Smolworld Hero" 
-                    className="w-full rounded-lg shadow-md object-cover transition-all duration-500 group-hover:animate-[wiggle_0.5s_ease-in-out]" 
+                    className="w-full rounded-lg object-cover transition-all duration-500 group-hover:animate-[wiggle_0.5s_ease-in-out]" 
                     style={{ imageRendering: "crisp-edges" }}
                     width={500}
                     height={280}
@@ -281,7 +281,7 @@ export default function Home() {
                     <Image 
                       src="/cards/3/hero.png" 
                       alt="Canopy Hero" 
-                      className="w-full rounded-lg shadow-md object-cover" 
+                      className="w-full rounded-lg object-cover" 
                       style={{ imageRendering: "crisp-edges" }}
                       width={500}
                       height={280}
