@@ -1,5 +1,5 @@
 import Header from "@/components/header";
-
+import * as motion from "motion/react-client"
 export default function Home() {
   return (
     <>
@@ -26,59 +26,128 @@ export default function Home() {
             />
             
             {/* Hero Images Grid */}
-            <div className="absolute top-8 left-0 right-0 px-6">
-              <div className="flex justify-between items-center gap-6">
+            <div className="absolute top-8 left-0 right-0 px-8">
+              <div className="flex justify-between items-center gap-8">
                 {/* Left column - 2 images */}
-                <div className="flex flex-col gap-3 self-center">
-                  <img 
+                <div className="flex flex-col gap-4 self-center">
+                  <motion.img 
                     src="/cards/1/hero/hero-1.png" 
                     alt="Hero 1" 
                     className="w-full rounded-lg shadow-md object-cover" 
                     style={{ imageRendering: "crisp-edges" }}
+                    initial={{ y: 0 }}
+                    animate={{ 
+                      y: [0, -5, 0],
+                      transition: {
+                        duration: 4,
+                        repeat: Infinity,
+                        ease: "easeInOut"
+                      }
+                    }}
                   />
-                  <img 
+                  <motion.img 
                     src="/cards/1/hero/hero-2.png" 
                     alt="Hero 2" 
                     className="w-full rounded-lg shadow-md object-cover" 
                     style={{ imageRendering: "crisp-edges" }}
+                    initial={{ y: 0 }}
+                    animate={{ 
+                      y: [0, 6, 0],
+                      transition: {
+                        duration: 4.5,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: 0.5
+                      }
+                    }}
                   />
                 </div>
                 
                 {/* Middle column - 3 images */}
-                <div className="flex flex-col gap-3">
-                  <img 
+                <div className="flex flex-col gap-4">
+                  <motion.img 
                     src="/cards/1/hero/hero-3.png" 
                     alt="Hero 3" 
                     className="w-full rounded-lg shadow-md object-cover" 
                     style={{ imageRendering: "crisp-edges" }}
+                    initial={{ y: 0 }}
+                    animate={{ 
+                      y: [0, -7, 0],
+                      transition: {
+                        duration: 5,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: 1
+                      }
+                    }}
                   />
-                  <img 
+                  <motion.img 
                     src="/cards/1/hero/hero-4.png" 
                     alt="Hero 4" 
                     className="w-full rounded-lg shadow-md object-cover" 
                     style={{ imageRendering: "crisp-edges" }}
+                    initial={{ y: 0 }}
+                    animate={{ 
+                      y: [0, 5, 0],
+                      transition: {
+                        duration: 4.2,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: 0.7
+                      }
+                    }}
                   />
-                  <img 
+                  <motion.img 
                     src="/cards/1/hero/hero-5.png" 
                     alt="Hero 5" 
                     className="w-full rounded-lg shadow-md object-cover" 
                     style={{ imageRendering: "crisp-edges" }}
+                    initial={{ y: 0 }}
+                    animate={{ 
+                      y: [0, -6, 0],
+                      transition: {
+                        duration: 5.5,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: 1.5
+                      }
+                    }}
                   />
                 </div>
                 
                 {/* Right column - 2 images */}
-                <div className="flex flex-col gap-3 self-center">
-                  <img 
+                <div className="flex flex-col gap-4 self-center">
+                  <motion.img 
                     src="/cards/1/hero/hero-6.png" 
                     alt="Hero 6" 
                     className="w-full rounded-lg shadow-md object-cover" 
                     style={{ imageRendering: "crisp-edges" }}
+                    initial={{ y: 0 }}
+                    animate={{ 
+                      y: [0, 7, 0],
+                      transition: {
+                        duration: 5.2,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: 0.2
+                      }
+                    }}
                   />
-                  <img 
+                  <motion.img 
                     src="/cards/1/hero/hero-7.png" 
                     alt="Hero 7" 
                     className="w-full rounded-lg shadow-md object-cover" 
                     style={{ imageRendering: "crisp-edges" }}
+                    initial={{ y: 0 }}
+                    animate={{ 
+                      y: [0, -5, 0],
+                      transition: {
+                        duration: 4.8,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: 1.2
+                      }
+                    }}
                   />
                 </div>
               </div>
