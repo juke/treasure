@@ -6,7 +6,7 @@ export default function Home() {
       <Header />
       <main className="min-h-screen text-white px-4 py-16 sm:px-6 lg:px-8">
         {/* Header Section */}
-        <div className="container mx-auto mb-12 sm:mb-16 pt-8 sm:pt-12">
+        <div className="container mx-auto max-w-[1440px] mb-12 sm:mb-16 pt-8 sm:pt-12">
           <p className="text-base sm:text-lg font-bold tracking-wider mb-2 sm:mb-3 flex items-center">
             <span className="text-red-500 mr-2 text-xs">◆</span> BUILD, PLAY & EVOLVE WITH $MAGIC
           </p>
@@ -16,7 +16,7 @@ export default function Home() {
         </div>
 
         {/* Cards Section - Using a grid layout for better responsiveness */}
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-4 lg:gap-6 xl:gap-8">
+        <div className="container mx-auto max-w-[1440px] grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-4 lg:gap-6 xl:gap-8">
           {/* Card 1 - Virtual Companions */}
           <div 
             className="w-full max-w-[300px] xs:max-w-[320px] sm:max-w-[340px] pt-8 md:max-w-none mx-auto rounded-3xl cursor-pointer border border-white/60 overflow-hidden flex flex-col bg-black/30 relative group transition-all duration-700 hover:border-[#A239FF]"
