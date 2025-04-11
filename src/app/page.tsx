@@ -263,7 +263,7 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                
+                 
                 {/* Text Section with project info */}
                 <div className="mt-8 px-4 sm:px-6 md:px-6 lg:px-9 pb-4 sm:pb-6 md:pb-10 lg:pb-8">
                   <div className="text-[10px] xs:text-[10px] sm:text-[10px] md:text-[10px] lg:text-[11px] xl:text-xs font-mono tracking-wider opacity-80">// BRIDGEWORLD</div>
