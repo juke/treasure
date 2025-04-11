@@ -7,7 +7,9 @@ export default function Home() {
       <main className="min-h-screen text-white px-4 py-16 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="container mx-auto mb-12 sm:mb-16 pt-8 sm:pt-12">
-          <p className="text-sm font-semibold tracking-wider mb-4 sm:mb-6">NEW SITE COMING SOON</p>
+          <p className="text-base sm:text-lg font-bold tracking-wider mb-2 sm:mb-3 flex items-center">
+            <span className="text-red-500 mr-2 text-xs">◆</span> BUILD, PLAY & EVOLVE WITH $MAGIC
+          </p>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-8 sm:mb-12 max-w-4xl">
             WE&apos;RE EMBARKING<br className="hidden sm:block" /> ON A NEW ADVENTURE
           </h1>
