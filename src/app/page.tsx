@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "@/components/header";
 
 export default function Home() {
@@ -17,38 +16,35 @@ export default function Home() {
         {/* Cards Section - Using a grid with appropriate spacing */}
         <div className="container mx-auto flex flex-col md:flex-row justify-center items-center md:items-start gap-12 md:gap-8 lg:gap-12">
           {/* Card 1 - Virtual Companions */}
-          <div className="relative w-[400px] sm:w-[500px] lg:w-[600px] aspect-[916/1400] transition-all duration-300 transform hover:scale-105 hover:shadow-[0_0_40px_rgba(255,50,50,0.4)] rounded-3xl cursor-pointer">
-            <Image
-              src="/cards/Card 1.png"
-              alt="Virtual Companions"
-              fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              style={{ objectFit: "cover" }}
-              priority
+          <div 
+            className="relative w-[400px] sm:w-[500px] lg:w-[600px] aspect-[916/1400] rounded-3xl cursor-pointer border border-white/70 overflow-hidden"
+            style={{ boxShadow: "inset 0 0 50px 20px rgba(255, 255, 255, 0.25)" }}
+          >
+            <div 
+              className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: "url('/cards/1/bg.png')" }}
             />
           </div>
 
           {/* Card 2 - Smolworld */}
-          <div className="relative w-[400px] sm:w-[500px] lg:w-[600px] aspect-[916/1400] transition-all duration-300 transform hover:scale-105 hover:shadow-[0_0_40px_rgba(50,255,100,0.4)] rounded-3xl cursor-pointer">
-            <Image
-              src="/cards/Card 2.png"
-              alt="Smolworld"
-              fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              style={{ objectFit: "cover" }}
-              priority
+          <div 
+            className="relative w-[400px] sm:w-[500px] lg:w-[600px] aspect-[916/1400] rounded-3xl cursor-pointer border border-white/70 overflow-hidden"
+            style={{ boxShadow: "inset 0 0 50px 20px rgba(255, 255, 255, 0.25)" }}
+          >
+            <div 
+              className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: "url('/cards/2/bg.png')" }}
             />
           </div>
 
           {/* Card 3 - Canopy */}
-          <div className="relative w-[400px] sm:w-[500px] lg:w-[600px] aspect-[916/1400] transition-all duration-300 transform hover:scale-105 hover:shadow-[0_0_40px_rgba(50,100,255,0.4)] rounded-3xl cursor-pointer">
-            <Image
-              src="/cards/Card 3.png"
-              alt="Canopy"
-              fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              style={{ objectFit: "cover" }}
-              priority
+          <div 
+            className="relative w-[400px] sm:w-[500px] lg:w-[600px] aspect-[916/1400] rounded-3xl cursor-pointer border border-white/70 overflow-hidden"
+            style={{ boxShadow: "inset 0 0 50px 20px rgba(255, 255, 255, 0.25)" }}
+          >
+            <div 
+              className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: "url('/cards/3/bg.png')" }}
             />
           </div>
         </div>
