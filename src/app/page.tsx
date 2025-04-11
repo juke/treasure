@@ -15,10 +15,10 @@ export default function Home() {
       <main className="min-h-screen text-white px-4 py-16 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="container mx-auto max-w-[1440px] mb-12 sm:mb-16 pt-8 sm:pt-12">
-          <p className="text-base sm:text-lg font-bold tracking-wider mb-2 sm:mb-3 flex items-center">
+          <p className="text-base sm:text-lg font-mono font-bold tracking-wider mb-2 sm:mb-3 flex items-center">
             <span className="text-red-500 mr-2 text-xs">◆</span> BUILD, PLAY & EVOLVE WITH $MAGIC
           </p>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-8 sm:mb-12 max-w-4xl">
+          <h1 className="text-[#FFFDF7] text-4xl sm:text-5xl md:text-[50px] lg:text-[62px] font-black font-[829] leading-none uppercase font-['Whyte'] leading-trim-both text-edge-cap mb-8 sm:mb-12 max-w-4xl">
             WE&apos;RE EMBARKING<br className="hidden sm:block" /> ON A NEW ADVENTURE
           </h1>
         </div>
@@ -124,14 +124,14 @@ export default function Home() {
                 <div className="mt-auto px-4 sm:px-6 md:px-4 lg:px-9 pb-4 sm:pb-6 lg:pb-8">
                   <div className="text-[10px] xs:text-xs font-mono tracking-widest opacity-80">// TREASURE AI</div>
                   <div className="flex items-end justify-between mt-1 sm:mt-2">
-                    <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-2xl lg:text-3xl xl:text-4xl font-black tracking-wider leading-none">VIRTUAL<br />COMPANIONS</h2>
+                    <h2 className="text-[#FFFDF7] text-[42px] font-['ABC_Whyte_Variable'] font-[829] leading-[100%] uppercase font-black leading-trim-both text-edge-cap">VIRTUAL<br />COMPANIONS</h2>
                     <img src="/cards/1/logomark.svg" alt="Virtual Companions Logo" className="h-4 sm:h-5 lg:h-6 w-auto mb-0.5 sm:mb-1 lg:mb-2" />
                   </div>
                 </div>
                 
                 {/* Bottom Section - Development Phase */}
                 <div className="h-[40px] sm:h-[45px] md:h-[50px] lg:h-[61px] border-t border-white/60 flex items-center justify-center mt-4 group-hover:border-[#A239FF] transition-colors duration-700">
-                  <span className="uppercase text-white/90 text-[9px] xs:text-[10px] sm:text-xs font-bold tracking-wider">Development Phase</span>
+                  <span className="uppercase font-mono text-white/90 text-[9px] xs:text-[10px] sm:text-xs font-bold tracking-wider">Development Phase</span>
                 </div>
               </div>
             </DialogTrigger>
@@ -195,14 +195,14 @@ export default function Home() {
                 <div className="mt-auto px-4 sm:px-6 md:px-4 lg:px-9 pb-4 sm:pb-6 lg:pb-8">
                   <div className="text-[10px] xs:text-xs font-mono tracking-widest opacity-80">// SMOLVERSE</div>
                   <div className="flex items-end justify-between mt-1 sm:mt-2">
-                    <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-2xl lg:text-3xl xl:text-4xl font-black tracking-wider leading-none">SMOLWORLD</h2>
+                    <h2 className="text-[#FFFDF7] text-[42px] font-['ABC_Whyte_Variable'] font-[829] leading-[100%] uppercase font-black leading-trim-both text-edge-cap">SMOLWORLD</h2>
                     <img src="/cards/2/logomark.svg" alt="Smol World Logo" className="h-3 sm:h-4 lg:h-4.5 w-auto mb-0.5 sm:mb-1 lg:mb-2" />
                   </div>
                 </div>
                 
                 {/* Bottom Section - Development Phase */}
                 <div className="h-[40px] sm:h-[45px] md:h-[50px] lg:h-[61px] border-t border-white/60 flex items-center justify-center mt-4 group-hover:border-[#A239FF] transition-colors duration-700">
-                  <span className="uppercase text-white/90 text-[9px] xs:text-[10px] sm:text-xs font-bold tracking-wider">Development Phase</span>
+                  <span className="uppercase font-mono text-white/90 text-[9px] xs:text-[10px] sm:text-xs font-bold tracking-wider">Development Phase</span>
                 </div>
               </div>
             </DialogTrigger>
@@ -268,14 +268,14 @@ export default function Home() {
                 <div className="mt-auto px-4 sm:px-6 md:px-4 lg:px-9 pb-4 sm:pb-6 lg:pb-8">
                   <div className="text-[10px] xs:text-xs font-mono tracking-widest opacity-80">// BRIDGEWORLD</div>
                   <div className="flex items-end justify-between mt-1 sm:mt-2">
-                    <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-2xl lg:text-3xl xl:text-4xl font-black tracking-wider leading-none group-hover:[text-shadow:0_0_8px_rgba(255,255,255,0.5)] transition-all duration-300">CANOPY</h2>
+                    <h2 className="text-[#FFFDF7] text-[42px] font-['ABC_Whyte_Variable'] font-[829] leading-[100%] uppercase font-black leading-trim-both text-edge-cap group-hover:[text-shadow:0_0_8px_rgba(255,255,255,0.5)] transition-all duration-300">CANOPY</h2>
                     <img src="/cards/3/logomark.svg" alt="Canopy Logo" className="h-4 sm:h-5 lg:h-6 w-auto mb-0.5 sm:mb-1 lg:mb-2" />
                   </div>
                 </div>
                 
                 {/* Bottom Section - Development Phase */}
                 <div className="h-[40px] sm:h-[45px] md:h-[50px] lg:h-[61px] border-t border-white/60 flex items-center justify-center mt-4 group-hover:border-[#A239FF] transition-colors duration-700">
-                  <span className="uppercase text-white/90 text-[9px] xs:text-[10px] sm:text-xs font-bold tracking-wider">Development Phase</span>
+                  <span className="uppercase font-mono text-white/90 text-[9px] xs:text-[10px] sm:text-xs font-bold tracking-wider">Development Phase</span>
                 </div>
               </div>
             </DialogTrigger>
