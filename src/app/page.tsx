@@ -1,4 +1,5 @@
 import Header from "@/components/header";
+import Image from "next/image";
 import {
   Dialog,
   DialogContent,
@@ -54,10 +55,12 @@ export default function Home() {
                 
                 {/* Background pattern */}
                 <div className="absolute inset-0 w-full h-full opacity-5">
-                  <img 
+                  <Image 
                     src="/cards/1/bg.png" 
                     alt="Background pattern" 
                     className="w-full h-full object-cover"
+                    width={500}
+                    height={500}
                   />
                 </div>
                 
@@ -66,55 +69,69 @@ export default function Home() {
                   <div className="flex justify-between items-center gap-1 xs:gap-2 sm:gap-3 md:gap-2 lg:gap-4">
                     {/* Left column - 2 images, centered vertically */}
                     <div className="flex flex-col justify-center gap-3 xs:gap-4 sm:gap-6 md:gap-4 lg:gap-6">
-                      <img 
+                      <Image 
                         src="/cards/1/hero/hero-1.png" 
                         alt="Hero 1" 
                         className="w-full rounded-lg shadow-md object-cover float-animation-1 transition-all duration-300" 
                         style={{ imageRendering: "crisp-edges" }}
+                        width={100}
+                        height={100}
                       />
-                      <img 
+                      <Image 
                         src="/cards/1/hero/hero-2.png" 
                         alt="Hero 2" 
                         className="w-full rounded-lg shadow-md object-cover float-animation-2 transition-all duration-300" 
                         style={{ imageRendering: "crisp-edges" }}
+                        width={100}
+                        height={100}
                       />
                     </div>
                     
                     {/* Middle column - 3 images */}
                     <div className="flex flex-col gap-3 xs:gap-4 sm:gap-6 md:gap-4 lg:gap-6">
-                      <img 
+                      <Image 
                         src="/cards/1/hero/hero-3.png" 
                         alt="Hero 3" 
                         className="w-full rounded-lg shadow-md object-cover float-animation-3 transition-all duration-300" 
                         style={{ imageRendering: "crisp-edges" }}
+                        width={100}
+                        height={100}
                       />
-                      <img 
+                      <Image 
                         src="/cards/1/hero/hero-4.png" 
                         alt="Hero 4" 
                         className="w-full rounded-lg shadow-md object-cover float-animation-4 transition-all duration-300" 
                         style={{ imageRendering: "crisp-edges" }}
+                        width={100}
+                        height={100}
                       />
-                      <img 
+                      <Image 
                         src="/cards/1/hero/hero-5.png" 
                         alt="Hero 5" 
                         className="w-full rounded-lg shadow-md object-cover float-animation-5 transition-all duration-300" 
                         style={{ imageRendering: "crisp-edges" }}
+                        width={100}
+                        height={100}
                       />
                     </div>
                     
                     {/* Right column - 2 images, centered vertically */}
                     <div className="flex flex-col justify-center gap-3 xs:gap-4 sm:gap-6 md:gap-4 lg:gap-6">
-                      <img 
+                      <Image 
                         src="/cards/1/hero/hero-6.png" 
                         alt="Hero 6" 
                         className="w-full rounded-lg shadow-md object-cover float-animation-6 transition-all duration-300" 
                         style={{ imageRendering: "crisp-edges" }}
+                        width={100}
+                        height={100}
                       />
-                      <img 
+                      <Image 
                         src="/cards/1/hero/hero-7.png" 
                         alt="Hero 7" 
                         className="w-full rounded-lg shadow-md object-cover float-animation-7 transition-all duration-300" 
                         style={{ imageRendering: "crisp-edges" }}
+                        width={100}
+                        height={100}
                       />
                     </div>
                   </div>
@@ -122,10 +139,10 @@ export default function Home() {
                 
                 {/* Text Section with project info */}
                 <div className="mt-8 px-4 sm:px-6 md:px-6 lg:px-9 pb-4 sm:pb-6 md:pb-10 lg:pb-8">
-                  <div className="text-[10px] xs:text-[10px] sm:text-[10px] md:text-[10px] lg:text-[11px] xl:text-xs font-mono tracking-wider opacity-80">// TREASURE AI</div>
+                  <div className="text-[10px] xs:text-[10px] sm:text-[10px] md:text-[10px] lg:text-[11px] xl:text-xs font-mono tracking-wider opacity-80">{"// TREASURE AI"}</div>
                   <div className="flex items-end justify-between mt-2 sm:mt-2 md:mt-1">
                     <h2 className="text-[#FFFDF7] text-[32px] xs:text-[34px] sm:text-[36px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[44px] font-[829] leading-[0.95] uppercase tracking-tight min-h-[70px] md:min-h-[70px] max-w-[80%]">VIRTUAL<br />COMPANIONS</h2>
-                    <img src="/cards/1/logomark.svg" alt="Virtual Companions Logo" className="h-5 xs:h-5 sm:h-5 md:h-5 lg:h-5.5 xl:h-6 w-auto mb-0.5 sm:mb-1 lg:mb-2" />
+                    <Image src="/cards/1/logomark.svg" alt="Virtual Companions Logo" className="h-5 xs:h-5 sm:h-5 md:h-5 lg:h-5.5 xl:h-6 w-auto mb-0.5 sm:mb-1 lg:mb-2" width={24} height={24} />
                   </div>
                 </div>
                 
@@ -174,29 +191,33 @@ export default function Home() {
                 
                 {/* Background pattern */}
                 <div className="absolute inset-0 w-full h-full opacity-5">
-                  <img 
+                  <Image 
                     src="/cards/2/bg.png" 
                     alt="Background pattern" 
                     className="w-full h-full object-cover"
+                    width={500}
+                    height={500}
                   />
                 </div>
                 
                 {/* Hero image */}
                 <div className="flex-1 p-3 xs:p-4 sm:p-6 md:p-4 lg:p-6 sm:pt-10 relative h-[280px] flex items-center justify-center">
-                  <img 
+                  <Image 
                     src="/cards/2/hero.png" 
                     alt="Smolworld Hero" 
                     className="w-full rounded-lg shadow-md object-cover transition-all duration-500 group-hover:animate-[wiggle_0.5s_ease-in-out]" 
                     style={{ imageRendering: "crisp-edges" }}
+                    width={500}
+                    height={280}
                   />
                 </div>
                 
                 {/* Text Section with project info */}
                 <div className="mt-8 px-4 sm:px-6 md:px-6 lg:px-9 pb-4 sm:pb-6 md:pb-10 lg:pb-8">
-                  <div className="text-[10px] xs:text-[10px] sm:text-[10px] md:text-[10px] lg:text-[11px] xl:text-xs font-mono tracking-wider opacity-80">// SMOLVERSE</div>
+                  <div className="text-[10px] xs:text-[10px] sm:text-[10px] md:text-[10px] lg:text-[11px] xl:text-xs font-mono tracking-wider opacity-80">{"// SMOLVERSE"}</div>
                   <div className="flex items-end justify-between mt-2 sm:mt-2 md:mt-1">
                     <h2 className="text-[#FFFDF7] text-[32px] xs:text-[34px] sm:text-[36px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[44px] font-[829] leading-[0.95] uppercase tracking-tight min-h-[40px] md:min-h-[40px]">SMOLWORLD</h2>
-                    <img src="/cards/2/logomark.svg" alt="Smol World Logo" className="h-4 xs:h-4 sm:h-4 md:h-4 lg:h-4.5 xl:h-5 w-auto mb-0.5 sm:mb-1 lg:mb-2" />
+                    <Image src="/cards/2/logomark.svg" alt="Smol World Logo" className="h-4 xs:h-4 sm:h-4 md:h-4 lg:h-4.5 xl:h-5 w-auto mb-0.5 sm:mb-1 lg:mb-2" width={20} height={20} />
                   </div>
                 </div>
                 
@@ -245,31 +266,35 @@ export default function Home() {
                 
                 {/* Background pattern */}
                 <div className="absolute inset-0 w-full h-full opacity-5">
-                  <img 
+                  <Image 
                     src="/cards/3/bg.png" 
                     alt="Background pattern" 
                     className="w-full h-full object-cover"
+                    width={500}
+                    height={500}
                   />
                 </div>
                 
                 {/* Hero image with zoom effect on hover */}
                 <div className="flex-1 py-3 xs:py-4 sm:py-6 md:py-4 lg:py-6 sm:pt-10 px-0 relative h-[280px] flex items-center justify-center overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center transition-transform duration-700 group-hover:scale-110">
-                    <img 
+                    <Image 
                       src="/cards/3/hero.png" 
                       alt="Canopy Hero" 
                       className="w-full rounded-lg shadow-md object-cover" 
                       style={{ imageRendering: "crisp-edges" }}
+                      width={500}
+                      height={280}
                     />
                   </div>
                 </div>
-                 
+                
                 {/* Text Section with project info */}
                 <div className="mt-8 px-4 sm:px-6 md:px-6 lg:px-9 pb-4 sm:pb-6 md:pb-10 lg:pb-8">
-                  <div className="text-[10px] xs:text-[10px] sm:text-[10px] md:text-[10px] lg:text-[11px] xl:text-xs font-mono tracking-wider opacity-80">// BRIDGEWORLD</div>
+                  <div className="text-[10px] xs:text-[10px] sm:text-[10px] md:text-[10px] lg:text-[11px] xl:text-xs font-mono tracking-wider opacity-80">{"// BRIDGEWORLD"}</div>
                   <div className="flex items-end justify-between mt-2 sm:mt-2 md:mt-1">
                     <h2 className="text-[#FFFDF7] text-[32px] xs:text-[34px] sm:text-[36px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[44px] font-[829] leading-[0.95] uppercase tracking-tight min-h-[40px] md:min-h-[40px] group-hover:[text-shadow:0_0_8px_rgba(255,255,255,0.5)] transition-all duration-300">CANOPY</h2>
-                    <img src="/cards/3/logomark.svg" alt="Canopy Logo" className="h-5 xs:h-5 sm:h-5 md:h-5 lg:h-5.5 xl:h-6 w-auto mb-0.5 sm:mb-1 lg:mb-2" />
+                    <Image src="/cards/3/logomark.svg" alt="Canopy Logo" className="h-5 xs:h-5 sm:h-5 md:h-5 lg:h-5.5 xl:h-6 w-auto mb-0.5 sm:mb-1 lg:mb-2" width={24} height={24} />
                   </div>
                 </div>
                 
