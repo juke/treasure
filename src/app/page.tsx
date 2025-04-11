@@ -24,9 +24,12 @@ export default function Home() {
               className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/cards/1/bg.png')" }}
             />
-            <div className="absolute bottom-[61px] left-0 right-0 h-[130px]  flex flex-col p-4">
+            <div className="absolute bottom-[61px] left-0 right-0 h-[130px] flex flex-col justify-end px-9 pb-12">
               <div className="text-xs font-mono tracking-widest opacity-80">// TREASURE AI</div>
-              <h2 className="text-3xl font-extrabold tracking-tighter mt-2 mb-8">VIRTUAL COMPANIONS</h2>
+              <div className="flex items-end justify-between mt-2">
+                <h2 className="text-4xl font-black tracking-wider leading-none">VIRTUAL<br />COMPANIONS</h2>
+                <img src="/cards/1/logomark.svg" alt="Virtual Companions Logo" className="h-6 w-auto mb-2" />
+              </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center">
               <span className="uppercase text-white/90 text-xs font-bold">Development Phase</span>
@@ -42,11 +45,14 @@ export default function Home() {
               className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/cards/2/bg.png')" }}
             />
-            <div className="absolute bottom-[61px] left-0 right-0 h-[130px]  flex flex-col p-4">
+            <div className="absolute bottom-[61px] left-0 right-0 h-[130px] flex flex-col justify-end px-9 pb-12">
               <div className="text-xs font-mono tracking-widest opacity-80">// SMOLVERSE</div>
-              <h2 className="text-3xl font-extrabold tracking-tighter mt-2 mb-8">SMOL WORLD</h2>
+              <div className="flex items-end justify-between mt-2">
+                <h2 className="text-4xl font-black tracking-wider leading-none">SMOLWORLD</h2>
+                <img src="/cards/2/logomark.svg" alt="Smol World Logo" className="h-4.5 w-auto mb-2" />
+              </div>
             </div>
-            <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center mt-32">
+            <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center">
               <span className="uppercase text-white/90 text-xs font-bold">Development Phase</span>
             </div>
           </div>
@@ -60,9 +66,12 @@ export default function Home() {
               className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/cards/3/bg.png')" }}
             />
-            <div className="absolute bottom-[61px] left-0 right-0 h-[130px]  flex flex-col p-4">
+            <div className="absolute bottom-[61px] left-0 right-0 h-[130px] flex flex-col justify-end px-9 pb-12">
               <div className="text-xs font-mono tracking-widest opacity-80">// BRIDGEWORLD</div>
-              <h2 className="text-3xl font-extrabold tracking-tighter mt-2 mb-8">CANOPY</h2>
+              <div className="flex items-end justify-between mt-2">
+                <h2 className="text-4xl font-black tracking-wider leading-none">CANOPY</h2>
+                <img src="/cards/3/logomark.svg" alt="Canopy Logo" className="h-6 w-auto mb-2" />
+              </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center">
               <span className="uppercase text-white/90 text-xs font-bold">Development Phase</span>
