@@ -24,6 +24,9 @@ export default function Home() {
               className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/cards/1/bg.png')" }}
             />
+            <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center">
+              <span className="uppercase text-white/90 text-xs font-bold">Development Phase</span>
+            </div>
           </div>
 
           {/* Card 2 - Smolworld */}
@@ -35,6 +38,9 @@ export default function Home() {
               className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/cards/2/bg.png')" }}
             />
+            <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center">
+              <span className="uppercase text-white/90 text-xs font-bold">Development Phase</span>
+            </div>
           </div>
 
           {/* Card 3 - Canopy */}
@@ -46,6 +52,9 @@ export default function Home() {
               className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/cards/3/bg.png')" }}
             />
+            <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center">
+              <span className="uppercase text-white/90 text-xs font-bold">Development Phase</span>
+            </div>
           </div>
         </div>
       </main>
