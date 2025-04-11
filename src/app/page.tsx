@@ -24,6 +24,10 @@ export default function Home() {
               className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/cards/1/bg.png')" }}
             />
+            <div className="absolute bottom-[61px] left-0 right-0 h-[130px]  flex flex-col p-4">
+              <div className="text-xs font-mono tracking-widest opacity-80">// TREASURE AI</div>
+              <h2 className="text-3xl font-extrabold tracking-tighter mt-2 mb-8">VIRTUAL COMPANIONS</h2>
+            </div>
             <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center">
               <span className="uppercase text-white/90 text-xs font-bold">Development Phase</span>
             </div>
@@ -38,7 +42,11 @@ export default function Home() {
               className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/cards/2/bg.png')" }}
             />
-            <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center">
+            <div className="absolute bottom-[61px] left-0 right-0 h-[130px]  flex flex-col p-4">
+              <div className="text-xs font-mono tracking-widest opacity-80">// SMOLVERSE</div>
+              <h2 className="text-3xl font-extrabold tracking-tighter mt-2 mb-8">SMOL WORLD</h2>
+            </div>
+            <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center mt-32">
               <span className="uppercase text-white/90 text-xs font-bold">Development Phase</span>
             </div>
           </div>
@@ -52,6 +60,10 @@ export default function Home() {
               className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/cards/3/bg.png')" }}
             />
+            <div className="absolute bottom-[61px] left-0 right-0 h-[130px]  flex flex-col p-4">
+              <div className="text-xs font-mono tracking-widest opacity-80">// BRIDGEWORLD</div>
+              <h2 className="text-3xl font-extrabold tracking-tighter mt-2 mb-8">CANOPY</h2>
+            </div>
             <div className="absolute bottom-0 left-0 right-0 h-[61px] border-t border-white flex items-center justify-center">
               <span className="uppercase text-white/90 text-xs font-bold">Development Phase</span>
             </div>
