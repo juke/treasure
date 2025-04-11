@@ -24,6 +24,66 @@ export default function Home() {
               className="absolute inset-0 opacity-5 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/cards/1/bg.png')" }}
             />
+            
+            {/* Hero Images Grid */}
+            <div className="absolute top-8 left-0 right-0 px-6">
+              <div className="flex justify-between items-center gap-6">
+                {/* Left column - 2 images */}
+                <div className="flex flex-col gap-3 self-center">
+                  <img 
+                    src="/cards/1/hero/hero-1.png" 
+                    alt="Hero 1" 
+                    className="w-full rounded-lg shadow-md object-cover" 
+                    style={{ imageRendering: "crisp-edges" }}
+                  />
+                  <img 
+                    src="/cards/1/hero/hero-2.png" 
+                    alt="Hero 2" 
+                    className="w-full rounded-lg shadow-md object-cover" 
+                    style={{ imageRendering: "crisp-edges" }}
+                  />
+                </div>
+                
+                {/* Middle column - 3 images */}
+                <div className="flex flex-col gap-3">
+                  <img 
+                    src="/cards/1/hero/hero-3.png" 
+                    alt="Hero 3" 
+                    className="w-full rounded-lg shadow-md object-cover" 
+                    style={{ imageRendering: "crisp-edges" }}
+                  />
+                  <img 
+                    src="/cards/1/hero/hero-4.png" 
+                    alt="Hero 4" 
+                    className="w-full rounded-lg shadow-md object-cover" 
+                    style={{ imageRendering: "crisp-edges" }}
+                  />
+                  <img 
+                    src="/cards/1/hero/hero-5.png" 
+                    alt="Hero 5" 
+                    className="w-full rounded-lg shadow-md object-cover" 
+                    style={{ imageRendering: "crisp-edges" }}
+                  />
+                </div>
+                
+                {/* Right column - 2 images */}
+                <div className="flex flex-col gap-3 self-center">
+                  <img 
+                    src="/cards/1/hero/hero-6.png" 
+                    alt="Hero 6" 
+                    className="w-full rounded-lg shadow-md object-cover" 
+                    style={{ imageRendering: "crisp-edges" }}
+                  />
+                  <img 
+                    src="/cards/1/hero/hero-7.png" 
+                    alt="Hero 7" 
+                    className="w-full rounded-lg shadow-md object-cover" 
+                    style={{ imageRendering: "crisp-edges" }}
+                  />
+                </div>
+              </div>
+            </div>
+            
             <div className="absolute bottom-[61px] left-0 right-0 h-[130px] flex flex-col justify-end px-9 pb-12">
               <div className="text-xs font-mono tracking-widest opacity-80">// TREASURE AI</div>
               <div className="flex items-end justify-between mt-2">
